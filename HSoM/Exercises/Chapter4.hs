@@ -191,7 +191,17 @@ prefix1 instrument1 instrument2 n mel =
 
 mel1 = [c 5 en, e 5 sn, g 5 en, b 5 sn, a 5 en, f 5 sn, d 5 en, b 4 sn, c 5 en]
 mel2 = [c 5 sn, e 5 sn, g 5 sn, b 5 sn, a 5 sn, f 5 sn, d 5 sn, b 4 sn, c 5 sn]
-cmaj = [c 4 en, d 4 en, e 4 en, f 4 en, g 4 en, a 4 en, b 4 en, c 5 en]  
+ 
 
+-- Exercise 4.2
+
+cmaj = [c 4 en, d 4 en, e 4 en, f 4 en, g 4 en, a 4 en, b 4 en, c 5 en] 
+mel3 = [c 4 en, e 4 en, g 4 en, f 4 en, g 4 en, e 4 en]
+
+-- Exercise 4.3
+
+-- Use prefix1 for (1) different instruments, (3) change transposition
+-- Change m: 
+--   instrument instrument1 m1 :=: instrument instrument2 m2 :=: instrument instrument1 (transpose 5 m1)
 
 
