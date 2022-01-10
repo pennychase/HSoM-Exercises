@@ -12,26 +12,28 @@ maintainer:         mpchase@mac.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-Library
-  exposed-modules: 
-    HSoM.Exercises.Chapter2
-    HSoM.Exercises.Chapter3
-    HSoM.Exercises.Chapter4
+library 
   hs-source-dirs: .
+  exposed-modules: 
+      HSoM.Exercises.Chapter2
+      HSoM.Exercises.Chapter3
+      HSoM.Exercises.Chapter4
   build-depends: 
       base ^>=4.14.3.0
     , containers
     , HSoM
     , Euterpea
+ 
 
 executable HSoM-Exercises
-    main-is:          Main.hs
+  main-is:  Main.hs
 
-    -- Modules included in this executable, other than Main.
-    -- other-modules:
+   -- Modules included in this executable, other than Main.
+   -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    base ^>=4.14.3.0
-    hs-source-dirs:   app
-    default-language: Haskell2010
+  build-depends:
+      base ^>=4.14.3.0
+  hs-source-dirs:   app
+  default-language: Haskell2010
